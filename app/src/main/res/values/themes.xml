@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NavigationDrawer3" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.NavigationDrawer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:itemTextAppearance">@style/BoldRedText</item>
+        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryVariant">@color/lavender</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+<!--        <item name="colorSecondary">@color/teal_200</item>-->
+<!--        <item name="colorSecondaryVariant">@color/teal_700</item>-->
+<!--        <item name="colorOnSecondary">@color/black</item>-->
+
+    </style>
+
+
+    <style name="BoldRedText">
+        <item name="android:textColor">#FF0000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+<!--    <style name="MenuText.LightTheme">-->
+<!--        <item name="android:textColor">@color/lightTextColor</item>-->
+<!--        &lt;!&ndash; Other attributes for light theme &ndash;&gt;-->
+<!--    </style>-->
+
+<!--    <style name="MenuText.DarkTheme">-->
+<!--        <item name="android:textColor">@color/darkTextColor</item>-->
+<!--        &lt;!&ndash; Other attributes for dark theme &ndash;&gt;-->
+<!--    </style>-->
+
+
+    <style name="Theme.NavigationDrawer3" parent="Base.Theme.NavigationDrawer3" />
+</resources>

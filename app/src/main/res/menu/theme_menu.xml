@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item1"
+        app:showAsAction="always"
+        android:title="Options">
+        <menu>
+            <item
+                android:id="@+id/action_theme_toggle"
+                android:title="Toggle Mode"
+                app:showAsAction="always"
+                app:tint="@color/teal_700"
+                android:icon="@drawable/toggle"/>
+
+            <item
+                android:id="@+id/action_search"
+                android:title="Search"
+                app:showAsAction="ifRoom|collapseActionView"
+                android:icon="@drawable/search"
+                app:tint="@color/red"/>
+        </menu>
+    </item>
+
+</menu>
+
+    <!--                app:actionViewClass="androidx.appcompat.widget.SearchView"-->
